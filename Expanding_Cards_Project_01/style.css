@@ -14,14 +14,14 @@ body {
 
 .container {
   display: flex;
-  width: 90vw;
+  width: 85vw;
 }
 .panel {
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
-  border-radius: 50px;
+  border-radius: 60px;
   color: #fff;
   cursor: pointer;
   flex: 0.5;
@@ -52,5 +52,8 @@ body {
   .panel:nth-last-of-type(4),
   .panel:nth-last-of-type(5) {
     display: none;
+  }
+  .panel {
+    border-radius: 50px;
   }
 }
